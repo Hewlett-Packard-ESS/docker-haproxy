@@ -1,7 +1,0 @@
-logstash:
-  image: hpess/logstash
-  hostname: logstash
-  environment:
-    DEBUG: 'true'
-  ports:
-    - "9303:9303/udp"

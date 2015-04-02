@@ -1,4 +1,4 @@
-FROM hpess/chef:master
+FROM hpess/base:master
 MAINTAINER Karl Stoney <karl.stoney@hp.com> 
 
 RUN yum -y install make gcc gcc-c++ pcre-devel && \
